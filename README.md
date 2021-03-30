@@ -46,7 +46,7 @@ ex :
 "example".tr()
 ```
 
-- By default, there will be only english in the appLocales, but you can override appLocales before the app run in order to add any locales you want
+- By default, there will be only english in appLocales, but you can override appLocales before the app run in order to add any locales you want
 - The locale used if the device locale isn't in appLocales or if the key doesn't exist in the asset file will be the first locale in appLocales
 
 ex :
