@@ -18,8 +18,8 @@ flutter_localizations:
 ex :
 
 flutter:
-  assets:
-    - language/en.json
+    assets:
+        - language/en.json
 
 ### Implementation
 
