@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'easy_translation.dart';
 
 void main() {
+  appLocales = [
+    Locale('en', 'US'),
+    Locale('fr', 'FR'),
+  ];
   runApp(MyApp());
 }
 
