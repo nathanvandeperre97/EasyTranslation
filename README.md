@@ -35,9 +35,13 @@ localizationsDelegates: easyTranslationDelegates,
 - In the asset json, add a translation key/value
 
 ex :
+```
 "example": "This is an example of translation"
+```
 
 - In any text, use the translation using the key
 
 ex :
+```
 "example".tr()
+```
