@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              EasyTranslation.of(context).translate("example"),
+              "example".tr(),
             ),
           ],
         ),
