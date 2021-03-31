@@ -61,7 +61,7 @@ class EasyTranslation {
     return new Locale(_deviceLanguageCode, _deviceCountry);
   }
 
-  String translate(String key) {
+  String _translate(String key) {
     if (_localizedStrings != null && _localizedStrings[key] != null) {
       return _localizedStrings[key];
     }
@@ -90,8 +90,6 @@ class _EasyTranslationDelegate extends LocalizationsDelegate<EasyTranslation> {
   bool shouldReload(_EasyTranslationDelegate old) => false;
 }
 
-extension StringTranslate on String {
-  String tr({List<String> args = const []}) {
-    return EasyTranslation.instance.translate(this);
-  }
+String translate(String key) {
+  return EasyTranslation.instance._translate(key);
 }

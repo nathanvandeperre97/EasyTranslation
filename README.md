@@ -6,14 +6,6 @@ A flutter project, that allow user to easily use translations.
 
 ### Prerequisites
 
-- Add the flutter_localization dependency to your pubspec.yaml
-
-ex :
-```
-flutter_localizations:
-    sdk: flutter
-```
-
 - Add the assets dependecies in your pubspec.yaml, these assets should be in the language folder
 
 ex :
@@ -43,7 +35,7 @@ ex :
 
 ex :
 ```
-"example".tr()
+translate("example")
 ```
 
 - By default, there will only be english in appLocales, but you can override appLocales before the app run in order to add any locales you want
