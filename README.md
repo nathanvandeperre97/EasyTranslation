@@ -12,7 +12,7 @@ ex :
 ```
 flutter:
     assets:
-        - language/en.json
+        - language/
 ```
 
 ### Implementation

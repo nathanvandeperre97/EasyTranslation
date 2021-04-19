@@ -6,6 +6,7 @@ void main() {
   appLocales = [
     Locale('en', 'US'),
     Locale('fr', 'FR'),
+    Locale('it', 'IT'),
   ];
   runApp(MyApp());
 }
